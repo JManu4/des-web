@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+
+
+    <!-- Inicio header (bootstrap) -->
+    <header>          
+      <nav class="navbar navbar-expand-sm bg-body-tertiary navBarColor" data-bs-theme="dark">
+        <div class="container-fluid navBarCustom">
+          <a class="navbar-brand" href="../index.html">D W</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdow" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navMenuAlineacion" id="navbarNavDropdow">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./clas1.html">Clase 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./clas2.html">Clase 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./clas3.html">Clase 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin header -->
+    
+    <p class="mayorQue1">Contactanos</p>
+
+    <main>
+        <!-- FORMULARIO -->
+        <form action="./form.php" method="get" enctype="">
+
+            <div class="datos">
+                <div>
+                    <label for="nombre"></label>
+                    <input type="text" placeholder="Nombre(s)" id="nombre" required>
+                </div>
+                <div>
+                    <label for="apellido"></label>
+                    <input type="text" placeholder="Apellido(s)" id="apellido" required>
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail" id="email" required>
+                </div>
+                <label for="mensaje"></label>
+                <textarea cols="30" rows="10" placeholder="Comenta cualquier crítica o mejora a ésta pobre página" id="mensaje" required></textarea>
+            </div>
+
+
+
+            <!-- Boton RADIO-->
+            <div class="container satisfaccion">
+                <div class="nivel">
+                    <h3>Seleccione nivel de satifacción con esta página</h3>
+                    <section class="nivelOpt">
+                        <div>
+                            <label for="buena">Buena </label><input type="radio" name="nivel" id="buena">
+                        </div>
+                        <div>
+                            <label for="mala">Mala </label><input type="radio" name="nivel" id="mala">
+                        </div>
+                        <div>
+                            <label for="muymala">Muy mala </label><input type="radio" name="nivel" id="muymala">
+                        </div>
+                    </section>
+                </div>
+
+                <!-- CHECKBOX-->
+                <!-- atributo value es lo que se manda en el formulario-->
+                <div>
+                    <h3>Selecciones puntos a mejorar</h3>
+                    
+                    <section class="nivelOpt2">
+                        <div>
+                            <label for="colores">Colores </label><input type="checkbox" id="colores" value="Colores">
+                        </div>
+                        <div>
+                            <label for="estilo">Estilo </label><input type="checkbox" id="estilo" value="Estilo">
+                        </div>
+                        <div>
+                            <label for="codigo">Código </label><input type="checkbox" id="codigo" value="Código">
+                        </div>
+                        <div>
+                            <label for="todo">Todo </label><input type="checkbox" id="todo" value="Todo">
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <br>
+            
+            <!-- MENU -->
+            <div class="seleccionPais">
+                <select name="" id="">
+                    <option value="" disabled selected>Selecciona País</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="México">México</option>
+                </select>
+            </div>
+
+            <br>
+            
+            <!-- Botones -->
+            <div class="botones">
+                <input type="submit" value="Haz contacto">
+                <input type="reset" value="Resetear forma">
+            </div>
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <p class="mayorQue2"> < \ > </p>        
+
+    <!-- Inicio footer -->
+    <footer>  
+        <div class="containerfooterLink">
+          <ul class="footerLinkLista">
+            <li><a class="footerLinkItem" href="">Politicas</a></li>
+            <li><a class="footerLinkItem" href="">Contacto</a></li>
+            <li><a class="footerLinkItem" href="">FAQs</a></li>
+          </ul>
+        </div>
+  
+        <div class="footerRedes">
+          <div><img class="redesFocus" src="../images/instagram.png" alt="ig"></div>
+          <div><img class="redesFocus" src="../images/facebook.png" alt="fb"></div>
+          <div><img class="redesFocus" src="../images/whatsapp.png" alt="wa"></div>
+        </div>
+  
+        <div class="footerLogo">
+          <a class="footerLogolink" href="#">&#160; &#160; D W | © 2022 Company, Inc &#160; &#160;</a>
+        </div>  
+      </footer>
+      <!-- Fin footer -->
+  
+  
+      <a class="irArriba" href="#">Inicio</a>
+  
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

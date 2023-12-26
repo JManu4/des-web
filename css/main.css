@@ -1,0 +1,302 @@
+body {
+    background-color:rgb(20, 38, 39) ;
+    position: relative;
+}
+
+
+/* Inicio separadores </> */
+    .mayorQue1, .mayorQue2, .mayorQue3 {
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        padding: 9rem;
+    }
+    .mayorQue1 {
+        background: linear-gradient(rgb(20, 38, 39),black);
+        margin-bottom: 0;
+    }
+    .mayorQue2 {
+        background-color: black;
+        margin-bottom: 0;
+
+    }
+    .mayorQue3 {
+        background: linear-gradient(black,rgb(20, 38, 39));
+    }
+/* Fin separadores </> */
+
+
+
+
+/* Inicia Navbar custom */
+    .navMenuAlineacion {
+        text-align: right;
+        justify-content: end;
+    }
+
+    .navBarCustom {
+        background-color:rgb(20, 38, 39);
+        font-size: 1.3rem;
+    }
+    .navbar {
+        --bs-navbar-padding-y:0;
+        margin-top: 2rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+/* Fin Navbar custom */
+
+
+
+
+
+/* Inicia intro */
+    .intro {
+        padding-block: 5rem;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "introLeftImage introCenter introCenter introCenter  introRightImage"    ;
+    }
+    .introLeftImage {
+        background-image: url(../images/introAside.jpeg);
+        background-size: cover;
+        grid-area: introLeftImage;
+    }
+    .introCenter{
+        background-image: url(../images/introAside.jpeg);
+        background-size: cover;
+        grid-area: introCenter ;
+        color: white;
+        text-align: center;
+        padding: 8rem 2rem;
+    }
+    .introRightImage {
+        background-image: url(../images/introAside.jpeg);
+        background-size: cover;
+        grid-area:introRightImage ;
+    }
+    .containerIntro {
+        max-width: 900px;
+        margin: 0 auto;
+        padding-inline: 1.5rem;
+    }
+/* Fin intro */
+
+
+/* Inicia Imagen tecladoRaton */
+    .tecladoRaton {
+        width: 100%;
+    }
+/* Fin Imagen tecladoRaton */
+
+
+
+/* Inicio glosario */
+    .contenedorGlos {
+        background-color: black;
+        padding-block: 10rem;
+    }
+    .glosario {
+        background-color:black;
+        color: white;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .glosTitulo {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    .definiciones {
+        text-align: justify;
+        display: flex;
+        gap: 3rem;
+    }
+    .glos1, .glos2 {
+        border: px solid yellow;
+        flex: 1;
+    }
+    .defParrafos {
+        border: px solid whitesmoke;
+        border-radius: 10px;
+        padding: 1rem;
+        background-image: url(../images/introAside.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (max-width: 600px){
+        .definiciones {
+            margin-inline: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+/* Fin glosario */
+
+
+
+
+
+
+/* Inicio carrusel */
+    .carousel-inner {
+        width: 90%;
+        margin-inline: auto;
+    }
+/* Fin carrusel */
+
+
+
+
+
+
+/* Inicio footer */
+    footer {
+        background-color: black;
+    }
+    .footerLinkLista {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .footerLinkItem {
+        text-decoration: none;
+        color: rgb(201, 201, 201);
+    }
+    .footerLinkItem:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    .footerRedes {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .redesFocus:hover {
+        width: 37px;
+        height: 37px;
+    }
+    .footerLogo {
+        text-align: center;
+        padding: 1rem 0 4rem;
+    }
+    .footerLogolink {
+        text-decoration: none;
+        color: rgb(201, 201, 201);
+    }
+    .footerLogolink:hover::after {
+        font-weight: bold;
+        color: white;
+        content: "< \ >"
+    }
+    .footerLogolink:hover::before {
+        font-weight: bold;
+        color: white;
+        content: "< \ >"
+    }
+    .irArriba {
+        position: absolute;
+        text-decoration: none;
+        color: gray;
+        border-radius: 10px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 0 1rem;
+    }
+    .irArriba:hover {
+        border: 1px solid white;
+    }
+/* Fin footer */
+
+
+
+
+
+/* ---------- Sites ---------- */
+
+
+
+
+
+/* Inicio Clase 1 */
+    .contenido {
+        color: white;
+        text-align: center;
+        background-color: black;
+        padding: 0;
+        margin: 0;
+    }
+/* Fin clase 1 */
+
+
+
+
+/* Inicio contactanos */
+form {
+    color: white;
+    background-color: black;
+}
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+*::placeholder  {
+    color: rgba(123, 225, 14, 0.432);
+}
+#nombre, #apellido, #email, #mensaje {
+    color: white;
+    background-color: rgba(12, 23, 23, 0.848);
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 350px;
+    height: 35px;
+}
+#mensaje {
+    height: 150px;
+}
+
+.satisfaccion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    align-items:center;
+    padding-top: 5rem;
+}
+.nivelOpt, .nivelOpt2 {
+    background-color: rgba(12, 23, 23, 0.848);
+    color: rgba(123, 225, 14, 0.732);
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nivelOpt2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;   
+}
+#buena,#mala,#muymala,#colores, #estilo,#codigo,#todo  {
+    accent-color: yellow;   
+}
+
+.seleccionPais, .botones {
+    text-align: center;
+}
+input[type=submit],input[type=reset] {
+    text-decoration: none;
+    background-color: rgb(20, 120, 20);
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin-inline: 2rem;
+}
+/* Fin contactanos */
