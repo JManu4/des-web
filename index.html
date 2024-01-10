@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Urbanist:wght@100;300;700&display=swap" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
     <link rel="stylesheet" href="./css/main.css">
-    <title>DW - PreEntrega2</title>
+    <title>DW - PreEntrega3</title>
 </head>
 <body>
 
-    <!-- Inicio header (bootstrap) -->
+    <!-- Inicio 0_header (bootstrap) -->
     <header>          
-          <nav class="navbar navbar-expand-sm bg-body-tertiary navBarColor" data-bs-theme="dark">
-            <div class="container-fluid navBarCustom">
-              <a class="navbar-brand" href="#">D W</a>
+          <nav class="navbar navbar-expand-sm" >
+            <div class="navBarMenu">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdow" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse navMenuAlineacion" id="navbarNavDropdow">
+              <div class="collapse navbar-collapse" id="navbarNavDropdow">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link actual" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./sites/clas1.html">Clase 1</a>
@@ -40,16 +46,272 @@
             </div>
           </nav>
     </header>
-    <!-- Fin header -->
+    <!-- Fin 0_header -->
     
-
-
-   <p class="mayorQue1"> < \ > </p>
-
-
 
     <!-- Inicio main -->
     <main>
+
+      <!-- Inicia 3_auto_presentacion -->
+      <section class="presentacion ">
+        <div class="presentacionTexto">
+          <div class="presentacionTextoUp">
+            <p class="presentacionTextoRol">Linux System Admin.</p>
+            <p class="presentacionTextoNombre">J. Manuel García</p>
+            <p class="presentacionTextoResumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iure possimus adipisci quaerat maiores labore asperiores cumque enim. </p>
+            <div>
+              <a class="presentacionTextoContact" href="./sites/contacto.html">Contactame</a>
+            </div>
+          </div>
+          <div class="presentacionTextoDown">
+            <p><b>Email</b> <br><a href="">jmgarciaa4@gmail.com</a></p>
+            <p><b>Phone</b> <br> +52 443-480-5006</p>
+            <p><b>Location</b> <br>Guadalajara, México</p>
+          </div>
+
+        </div>
+        <div class="presentacionImagen">
+          <img class="jmga" src="./images/jmga2.jpeg" alt="Autoretrato">
+        </div>
+      </section>
+      <!-- Fin 3_auto_presentacion -->
+
+      <p class="mayorQue3"> < \ > </p>
+
+
+      <!-- Inicia 4_skills -->
+      <section class="skills">
+        <div class="skillsTitle">Skills</div>
+        <div class="skillsCards">
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Linux Admin</p>
+            <p>Lorem ipsum dolor si, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconWhite"><i class="bi bi-laptop"></i></p>
+            <p class="skillsCardTitle">Unix Admin</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Bash scripting</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">SQL</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="skillsCards">
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Visual Basic</p>
+            <p>Lorem ipsum dolor si, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconWhite"><i class="bi bi-laptop"></i></p>
+            <p class="skillsCardTitle">AWS Cloud Practitioner</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Containers</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">L3 Support Eng.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Oracle Cloud Foundations</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="skillsCards">
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">ITSM</p>
+            <p>Lorem ipsum dolor si, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconWhite"><i class="bi bi-laptop"></i></p>
+            <p class="skillsCardTitle">Change / Release Mgmnt.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardBlack skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">Git & GitHub</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="skillsCardRed skillsCard">
+            <p class="skillsCardIconRed"><i class="bi bi-ubuntu"></i></p>
+            <p class="skillsCardTitle">HTML, CSS & JS</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Fin 4_skills -->
+
+      <p class="mayorQue1"> < \ > </p>
+
+
+      <!-- Inicia 5_soft_skills -->
+      <section class="softSkills">
+        <div class="softSkillsTitle">Soft Skills</div>
+        <div class="softSkillsCards">
+          <div class="skillsCardBlack softSkillsCard">
+            <p class="softSkillsCardTitle">Effective communication</p>
+          </div>
+          <div class="skillsCardRed softSkillsCard">
+            <p class="softSkillsCardTitle">Critical, analytical & troubleshooting skills</p>
+          </div>
+          <div class="skillsCardBlack softSkillsCard">
+            <p class="softSkillsCardTitle">Creativity</p>
+          </div>
+          <div class="skillsCardBlack softSkillsCard">
+            <p class="softSkillsCardTitle">Fast self-learning</p>
+          </div>
+        </div>
+        <div class="softSkillsCards">
+          <div class="skillsCardBlack softSkillsCard">
+            <p class="softSkillsCardTitle">Leadership, entrepreneurship</p>
+          </div>
+          <div class="skillsCardRed softSkillsCard">
+            <p class="softSkillsCardTitle">Work under pressure</p>
+          </div>
+          <div class="skillsCardBlack softSkillsCard">
+            <p class="softSkillsCardTitle">Processes improvement & autoamtion</p>
+          </div>
+          <div class="skillsCardRed softSkillsCard">
+            <p class="softSkillsCardTitle">Great team work</p>
+          </div>
+        </div>
+      </section>
+      <!-- Fin 5_soft_skills -->
+
+      
+      
+      <p class="mayorQue3"> < \ > </p>
+      
+      
+      
+      <!-- Inicia 6_experience_summary-->
+      <section class="experienceSummarySection">
+        <div class="experienceSummary">
+          <div class="experienceSummaryCard experienceSummaryCard1">
+            <p class="experienceSummaryCard1Year">09+</p>
+            <p class="experienceSummaryCard1Tx">Años de experiencia</p>
+          </div>
+          <div class="experienceSummaryCard experienceSummaryCard2">
+            <p class="experienceSummaryCardsYear">07+</p>
+            <p class="experienceSummaryCardsTx">Worked with teams around the world</p>
+          </div>
+          <div class="experienceSummaryCard experienceSummaryCard3">
+            <p class="experienceSummaryCardsYear">50+</p>
+            <p class="experienceSummaryCardsTx">Inhouse company courses,  programs & certificacions</p>
+          </div>
+          <div class="experienceSummaryCard experienceSummaryCard4">
+            <p class="experienceSummaryCardsYear">10+</p>
+            <p class="experienceSummaryCardsTx">Hours dedicated to train IT skills</p>
+          </div>
+          <div class="experienceSummaryCard experienceSummaryCard5">
+            <p class="experienceSummaryCardsYear">JM</p>
+            <p class="experienceSummaryCardsTx">Juan Manuel García Arguello</p>
+          </div>
+        </div>
+      </section>
+      <!-- Fin 6_experience_summary-->
+
+
+
+      <!-- Inicia 7_experience-->
+      <section class="experienceSection">
+        <div class="skillsTitle">Work Experience</div>
+
+        <div class="experienceContainer">
+          <div class="experienceContainerImage">
+            <img src="./images/keyboardMouse.jpeg" alt="">
+          </div>
+
+          <div class="experienceContainerText">
+            <div class="work1">
+              <div>
+                <p>Linux System Admin at Oracle</p>
+                <ul>
+                  <li>Plan, execute and verify quarterly patching of Oracle Linux hosts in a large scale.</li>
+                  <li>Plan, troubleshot and verify hardware problems on running infrastructure. Check on HDDs, NVMe, Powersupplies, Fans, CPUs, DIMMs and others.</li>
+                  <li>Deploy and manage multiple configurations with SALT.</li>
+                  <li>Support of Oracle Cloud Deployment Infrastructure.</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>Infrastructure Lead at IBM</p>
+              <ul>
+                <li>Monitor, troubleshoot, report, and escalate infrastructure items for an ETL team, such as Linux servers, DB2 servers, Web servers.</li>
+                <li>Implemented bash/ksh scripts to monitor and escalate Aix and RHEL servers' performance and health.</li>
+                <li>Implemented bash script to monitor DB2 warehouse batch and workload performance.</li>
+                <li>Management for a transparent as possible migration of resources/services to Prod environments while keeping legacy ones functional minimizing any service disruption.</li>
+                <li>Supported ETL processes with DataStage.</li>
+              </ul>
+            </div>
+            <div>
+              <p>Linux / HP-UX Patching Engineer at Softtek</p>
+              <ul>
+                <li>Client notification management of every state and implementation outcome.</li>
+                <li>Security patches installation on Prod/Non-Prod (RHEL 6.x,7.x, CentOS 6x, HP-UX 11.x)</li>
+                <li>Implemented bash scripts to perform Unix/Linux servers initial pre-patching (bad FS mounted, DNS and host
+                  issues, basic networking issues, bad env variable setting, repository connectivity, backup all pre-patch config
+                  and more).</li>
+                <li>Server support/admin exp:
+                  <ul>
+                    <li>Performance (services, ps, free, top, vmstat, load avg, mpstat, lscpu)</li>
+                    <li>Storage and FS mounting (LVM, ext4, xfs, partitioning and mounting)</li>
+                    <li>Packages management (rpm, yum, apt-get)</li>
+                    <li>Networking, security (NFS, Samba, ldap, NetworkManager, nmcli, ip, netstat, routing, tcpdump, traceroute, NTP,
+                      DNS, SSH, firewalld, SElinux)</li>
+                    <li>Booting (grub2,grubby,grub2-mkconfig, kernels)</li>
+                    <li>Clustering (Veritas, ServiceGuard, Oracle clusterware)</li>
+                    <li>Users' server support: user accounts, password, files and groups management.</li>
+                    <li>VMware vSphere servers managent, systemd, init, task schedulers, and other system configs and tools.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin 7_experience -->
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <img class="tecladoRaton" src="./images/keyboardMouse.jpeg" alt="">
+      
+
+
+
+
+
+      <p class="mayorQue1"> < \ > </p>
 
       <!-- Inicia intro (grids)-->
       <section class="intro">
@@ -68,7 +330,7 @@
       <p class="mayorQue3"> < \ > </p>
       
 
-      <img class="tecladoRaton" src="./images/keyboardMouse.jpeg" alt="">
+      
 
 
       <p class="mayorQue1"> < \ > </p>
@@ -102,53 +364,7 @@
 
 
 
-      <!-- Inicia carrusel (bootstrap) -->
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/bob1.jpg" class="d-block w-100 carruselImg1" alt="carruselAprendiendoDesarrolloWeb">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Aprendiendo desarrollo web</h5>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./images/bob2.jpg" class="d-block w-100" alt="carrusel6horas">
-          </div>
-          <div class="carousel-item">
-            <img src=".//images/bob3.jpg" class="d-block w-100" alt="carruselpensando">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/bob4.jpg" class="d-block w-100" alt="carruselTiempoDespues">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/bob5.jpg" class="d-block w-100" alt="carruselPreocuapdo">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/bob6.jpg" class="d-block w-100" alt="carrusel2000years">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/bob7.jpg" class="d-block w-100" alt="carruseInsertidumbrel">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- Fin carrussel -->
+
      
 
     </main>
